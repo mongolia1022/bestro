@@ -1,6 +1,6 @@
 <?php
 //数据库配置字段
-define('DB_HOSTNAME','localhost');
+define('DB_HOSTNAME','bestro.dot.vip');
 define('DB_USER','bestro');
 define('DB_PASSWORD','best808');
 define('DB_DBNAME','bestro');
