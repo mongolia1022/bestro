@@ -81,6 +81,10 @@
 .nav_in ul li a.now{width:140px; height:37px; display:block; background:url(../images/nav_hover.png); color:#fff;  position:absolute; left:-16px; top:0; text-align:center; padding-left:0;}
 .nav_dot_l{width:19px; height:19px; background:url(../images/nav_dot.gif); position:absolute; top:0; left:-144px;}
 .nav_dot_r{width:19px; height:19px; background:url(../images/nav_dot.gif); position:absolute; top:0; right:-144px;}
+.nav_in ul li ul{width:140px; position:absolute; left:-16px; top:37px; z-index:99999999; display:none;}
+.nav_in ul li ul li{width:140px; height:37px; line-height:37px; background:none; background-color:rgba(0,0,0,0.8); color:#fff; border-bottom:1px solid #333; padding:0;}
+.nav_in ul li ul li a{width:140px; height:37px; display:block; color:#fff; padding:0; position:static;}
+.nav_in ul li ul li a:hover{background:none; background-color:#333; position:static;}
 
 /*banner*/
 .banner{height:396px;overflow:hidden; position:relative;}

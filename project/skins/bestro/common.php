@@ -79,7 +79,16 @@ function banner(){
 	}
 }
 </script>
-
+<script>
+$(function(){
+$('.nav_in ul li').mouseover(function(){
+$(this).children('ul').stop(true,true).slideDown(200);	
+})	
+$('.nav_in ul li').mouseleave(function(){
+$(this).children('ul').stop(true,true).slideUp(200);	
+})	
+})
+</script>
 <!--首页新闻 js-->
 <link href="<?php echo $tag['path.skin']; ?>css/lrtk.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="<?php echo $tag['path.skin']; ?>js/koala.min.1.5.js"></script>

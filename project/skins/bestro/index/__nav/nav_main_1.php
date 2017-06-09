@@ -20,4 +20,18 @@ $target = $data['isTarget']?$target:'';
 
 /************** 样式正文 ************/
 ?>
-<li><a href="<?php echo $url?>" <?php echo $target?> <?php echo $select?>><?php echo $data['title'];?></a></li>
+<li><a href="<?php echo $url?>" <?php echo $target?> <?php echo $select?>><?php echo $data['title'];?></a>
+<?php 
+  /* 
+  *  如需要频道导航显示子栏目菜单，将以下标签代码前的注释取消即可。 
+  */
+  if(!empty($subs[$data['id']]))
+  {
+      ?>
+      <ul style="display: none;">
+        <?php nav_sub($data['id'],0,0);?>
+      </ul>
+      <?php 
+  }
+  ?>
+</li>
