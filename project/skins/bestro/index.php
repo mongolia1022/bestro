@@ -43,7 +43,7 @@ $(function(){
 <div id="Javascript.Div1" class="div" style="top: -145.5px; left: 174.5px;">
     <?php nav_main()?>
   <div class="clear"></div>
-  <div class="link">
+  <div class="link" style="display:none">
   	<div class="link_l"></div>
     <ul>
         <?php doc_linkers('6',0,0,0,0,0,true,'id',0)?>

@@ -1,8 +1,8 @@
 <?php
 //数据库配置字段
-define('DB_HOSTNAME','localhost');
-define('DB_USER','root');
-define('DB_PASSWORD','root');
+define('DB_HOSTNAME','bestro.dot.vip');
+define('DB_USER','bestro');
+define('DB_PASSWORD','best808');
 define('DB_DBNAME','bestro');
 define('TB_PREFIX','doc_');
 //模板配置字段
@@ -18,8 +18,8 @@ define('HTMLPATH','');
 define('UPLOADPATH','/upload/');
 define('TIMEZONENAME','8');
 define('STYLENAME','bestro');      //PC 模板
-define('MOBILENAME','mobile');      //移动模板
-define('URLREWRITE',true);
+define('MOBILENAME','bestro');      //移动模板
+define('URLREWRITE',false);
 define('CACHETIME','0');
 define('DOCPING',false);
 //评论审核
@@ -50,8 +50,8 @@ define('articleWidth','140');
 define('articleHight','105');
 define('listWidth','140');
 define('listHight','105');
-define('productWidth','140');
-define('productHight','105');
+define('productWidth','280');
+define('productHight','280');
 define('pictureWidth','140');
 define('pictureHight','105');
 //列表模块页缩略图大小设置
@@ -61,8 +61,8 @@ define('moduleUserHight','120');
 /*上传图片的大小设置*/
 define('productMiddlePicWidth','560');
 define('productMiddlePicHight','420');
-define('productSmallPicWidth','300');
-define('productSmallPicHight','225');
+define('productSmallPicWidth','280');
+define('productSmallPicHight','280');
 define('pictureMiddlePicWidth','560');
 define('pictureMiddlePicHight','420');
 define('pictureSmallPicWidth','300');

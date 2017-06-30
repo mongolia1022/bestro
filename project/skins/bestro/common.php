@@ -133,10 +133,10 @@ $(this).children('ul').stop(true,true).slideUp(200);
 
 <!-- banner -->
 <div class="banner" id="banner" > 
-    <?php doc_focus('1',0,0)?>
+    <?php doc_focus(sys_menu_info('id',true)+2,0,0)?>
   <div class="d2" id="banner_id">
     <ul>
-      <?php doc_focus('1',0,1)?>
+      <?php doc_focus(sys_menu_info('id',true)+2,0,1)?>
     </ul>
   </div>
 </div>
